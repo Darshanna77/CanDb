@@ -1,0 +1,10 @@
+pytest
+pylint
+yapf
+lxml
+pyyaml
+pathlib
+xlsxwriter
+arrow
+tqdm
+tabulate

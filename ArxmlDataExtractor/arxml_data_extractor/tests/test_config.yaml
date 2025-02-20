@@ -1,0 +1,7 @@
+PDU:
+  _xpath: ".//I-SIGNAL-I-PDU"
+  Name: "SHORT-NAME"
+  TimingSpecification:
+    _xpath: "./*/I-PDU-TIMING"
+    MinimumDelay: "MINIMUM-DELAY"
+    CyclicTiming: "TRANSMISSION-MODE-DECLARATION/TRANSMISSION-MODE-TRUE-TIMING/CYCLIC-TIMING/TIME-PERIOD/VALUE"
